@@ -12,3 +12,7 @@ I've seen the paper describe stepper silencer with aluminium sheet and steel woo
 
 アルミホイルで覆うのが手っ取り早い？
 Aluminum sheet may be good considering EM noise of Spindle...
+
+ノイズ対策レシピ
+Anti Noise recipes from CNC Cookbook
+http://www.cnccookbook.com/CCCNCNoise.html
