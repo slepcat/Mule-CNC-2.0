@@ -1,4 +1,4 @@
-# Mule CNC 2.0 Readme
+# Mule CNC 2.0 Read me
 	
 ##Overview
 		
@@ -22,7 +22,9 @@ Mule CNC 2.0 will fix these problems.
 
 Currently I test how to reduce the noise using 1.0 spindle. I put 1st priority
 on the noise problem because it prevent me to test the prototype in afraid of
-the neigbours complainment.
+the neighbors complaint.
+
+Please see '[Design/S004_silencer_study.md](./Design/S004_silencer_study.md)' for the detail.
 
 I'm updating the status on my twitter account: @slepcat. (However it's Japanese)
 	
@@ -37,16 +39,19 @@ Mule CNC 2.0は1.0のデザインを見直し、こうした問題を解決す�
 		
 現在、1.0のスピンドルを利用して騒音の低減方法を検討しています。問題のうち騒音を優先するのは、
 この問題が近所迷惑になるためプロトタイプのテストを妨げているためです。
+
+詳細については[Design/S004_silencer_study.md](./Design/S004_silencer_study.md)を閲覧してください。
 		
 最新の状態に付いてはTwitterアカウント@slepcatにて呟いています。　
 		
-## Lisence
+## License
 
 Mule CNC 2.0 design will be released under some kind of open source license. 
-However, currently you are not allowed to re-distribute without prior approval 
-by Taizo A. There are no warranties at all and the copyright holder is 
-disclaimed in the way of BSD Lisense.
+However, currently it's not decided and please ask me approval before you use
+Mule CNC 2.0 design. Use of the design must be done under user's own 
+responsibility and there is no warranty at all.
 
 ## ライセンス
 	
-ライセンスはオープンソースを予定しています。しかしながら現時点ではTaizo A.による承諾なしに再配布することを禁じます。また一切において無保証、無責任、無担保です。
+ライセンスはオープンソースを予定していますが、現時点では未定ですので、利用を希望される方は
+事前に了解を得るようにお願いします。また一切において無保証、無責任、無担保です。
