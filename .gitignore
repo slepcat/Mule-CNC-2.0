@@ -1,3 +1,6 @@
 *.x3g
 *.numbers
+*.3dm
+*.pxm
+*.nc
 TEMP.3dm
