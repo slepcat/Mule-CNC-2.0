@@ -5,12 +5,10 @@
 
 モーター本体を金属たわしとアルミホイルでくるむ方式もあった筈だが論文が見つからない。
 どこに行ったのか…
-I've seen the paper describe stepper silencer with aluminum foil and steel wool, but I can't find it.
 
 # Spindle silencer & EM noise sheild
 
 アルミホイルで覆うのが手っ取り早い？
-Aluminum sheet may be good considering EM noise of Spindle...
 
 ## 12th June 2014 silencer test result
 
@@ -23,7 +21,6 @@ Aluminum sheet may be good considering EM noise of Spindle...
 	* Foil & steel wool: avg 76dB / peak 86dB
 
 アルミホイルとスチールウールでも思ったほど落ちない。あとはモータをゴムでマウントする、アルミフォイルではなく厚いアルミ板を使用することを検討。
-Foil & steel wool failed to reach the expectation. Motor housing with dumper and thicker aluminum sheet may be effective.
 
 ## 14th June 2014 dumper mount test result
 
@@ -33,7 +30,6 @@ Foil & steel wool failed to reach the expectation. Motor housing with dumper and
 	* Dumper (Rubber Mount): avg 72dB / peak 80dB
 	* Dumper & foil: avg 71dB / peak 79dB
 
-Use dumper mount of 3mm thickness rubber sheets. Big improvement!
 ダンパーで劇的に改善。3mm厚のゴムをThingiverseを参考に挟み込む。
 Ref: [Silencer Kit for NEMA 17 Steppers](http://www.thingiverse.com/thing:25205)
 
@@ -49,12 +45,6 @@ Ref. Makerbot Replicator 2: avg 63dB / peak 73dB
 	* Dumper: avg 72dB / peak 80dB
 	* Dumper, lead tape, on the sponge avg 69dB / peak 76dB
 
-Apparently, lead tape doesn't show effect. The result of towel and sponge show 
-another dumper between the DC housing and the spindle block will improve noise.
-
-I received an advice on acoustic impedance and suggestion air/sponge/lead layers 
-may show effect.
-
 鉛テープに効果なし。ハウジングとスピンドルブロックにダンパーを挟み込むことに効果がありそう
 だと判明。
 
@@ -69,10 +59,19 @@ may show effect.
 * Results
 	* Dumper, lead/sponge on sponge: avg 65dB / peak 72dB
 
-It seem to work, but heat concern raised.
 効果があるようですが放熱が心配。
 
 ノイズ対策レシピ
 Anti Noise recipes from CNC Cookbook
 http://www.cnccookbook.com/CCCNCNoise.html
 
+## 14th September 2014 new motor
+
+* SNTM 28-26 1100KV Brushless DC apx. 5000 rpm?
+* Use "dB-Meter Free" iPhone app. 10 cm distance from spindle.
+* dc housing with silencer case
+* Results
+	* Dumper: avg 60dB / peak 67dB
+
+モータ交換した事で劇的に改善。しばらくSK3で運用していたがこちらに交換する事を決断。ハウジングのデザインも多少見直す予定。
+なお、SK3はシャフトに取り付けていた軸ががたついていたのでこれも騒音の一因だったかも。いずれにしても高回転のモータは騒音面でデメリットが大きいかも。SK3しか使っていないので分かりませんが。
