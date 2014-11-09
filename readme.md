@@ -15,6 +15,8 @@ Mule CNC 2.0は3Dプリント部品を使って構築したCNCミルです。
 * リミットスイッチはデザインに組み込まれていますが、作者はまだ実装していません
 * 資料類は整理中です
 
+![Mule CNC under assemble](/doc/Mule CNC Assembled.jpg)
+
 ##English Ver.
 
 Mule CNC 2.0 is CNC milling machine made with 3D Printed Parts.
